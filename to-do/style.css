@@ -1,0 +1,36 @@
+.user-card{
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 10px;
+    border: burlywood;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 400px;
+    min-width: 260px;
+}
+.user-card p, .user-card ul{
+    padding: 0;
+    margin: 0;
+}
+.user-card ul{
+    list-style: none;
+}
+
+ .task{
+    margin-left: 4px;
+ }
+
+ p{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+ }
+
+ .complete {
+    background-color: green;
+    width: 297px;
+ }
+ .complete p{
+    text-decoration: line-through;
+    color: white;
+ }
